@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Habits é um sistema de marcar seus objetivos diários.
 
-- [Visite o projeto online] (https://gustavoabarbosa.github.io/nlw-habits/)
+- [Visite o projeto online](https://gustavoabarbosa.github.io/nlw-habits/)
 
 ## 🔖 Layout
 
