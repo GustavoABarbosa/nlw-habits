@@ -1,0 +1,116 @@
+@import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #09090A;
+    color: white;
+    height: 100vh;
+  }
+  header{
+    width: 100%;
+    padding: 30px 48px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
+    background-color: #09090A;
+  }
+  #btn{
+    color: #FFFF;
+    padding: 16px 24px;
+    border-radius: 10px;
+    border: 3px solid #8B5CF6;
+    display: flex;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    gap: 12px;
+    align-items: center;
+    transition-property: all;
+    transition-duration:  550ms;
+    background: transparent;
+    box-shadow: 0 0 10px #A78BFA;
+  }
+  #btn:hover{
+    background: #8B5CF6;
+    cursor:pointer;
+  
+  }
+  input{
+    appearance: none;
+    -webkit-appearance: none;
+    height: 64px;
+    width: 64px;
+    border: 2px solid #27272A;
+    border-radius: 8px;
+    background-color: #181818;
+    transition-property: all;
+    transition-duration:  150ms;
+    
+  }
+  input:checked{
+    background: #8B5CF6;
+    border: 2px solid #A78BFA;
+  }
+  input:checked:hover{
+    background: rgba(94, 62, 170, 0.873);
+    border: 2px solid #A78BFA;
+  }
+  input:hover{
+    cursor: pointer;
+    background: #27272A;    
+    border: 2px solid #8B5CF6;
+    box-shadow: 0 0 10px #7038f5;
+  }
+  .habits{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 58px;
+  }
+  .habit{
+    width: 64px;
+    height: 64px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .days{
+    display: flex;
+    gap: 48px;
+    margin-left: 32px;
+  }
+  .day{
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+  }
+  .day div{
+    margin-bottom: 8px;
+    font-family:'Segoe UI';
+    font-size: 20px;
+    line-height: 125%;
+    text-align: center;
+  }
+  .day input {
+    margin: 5px;
+  }
+  #form-habits{
+    display: flex;
+    padding: 150px 48px 48px;
+    width: fit-content;
+  }
+  @media (max-width: 570px){
+    button div {
+      display: none;
+    }
+  }

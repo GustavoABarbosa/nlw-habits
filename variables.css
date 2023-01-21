@@ -1,0 +1,4 @@
+:root{
+    --gradient-color: linear-gradient(90deg, #331083 0%, #8B5CF6 100%);
+    --btn-color:  linear-gradient(90deg, #09090A 0%, #331083 100%);
+}
